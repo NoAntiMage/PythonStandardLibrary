@@ -1,0 +1,19 @@
+.idea/
+*.js
+*.html
+*.png
+*.woff
+*.eot
+*.svg
+*.ttf
+*.ccs
+.DS_Store
+*.ico
+*.jpg
+*.mp4
+*.java
+*.cpp
+*.c
+*.xml
+# *.json
+*.pyc
