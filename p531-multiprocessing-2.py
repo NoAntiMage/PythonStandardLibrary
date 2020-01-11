@@ -4,16 +4,16 @@ import time
 
 def worker():
     name = multiprocessing.current_process().name
-    print name, 'Starting'
+    print name, 'Starting\n'
     time.sleep(1)
-    print name, 'Exiting'
+    print name, 'Exiting\n'
 
 
 def my_service():
     name = multiprocessing.current_process().name
-    print name, 'Starting'
+    print name, 'Starting\n'
     time.sleep(5)
-    print name, 'Exiting'
+    print name, 'Exiting\n'
 
 
 if __name__ == '__main__':
